@@ -13,9 +13,11 @@
 		48F47D3E21B6A5E8002C67D3 /* food_roulette.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48F47D3C21B6A5E8002C67D3 /* food_roulette.xcdatamodeld */; };
 		48F47D4021B6A5E9002C67D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F47D3F21B6A5E9002C67D3 /* Assets.xcassets */; };
 		48F47D4321B6A5E9002C67D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F47D4121B6A5E9002C67D3 /* LaunchScreen.storyboard */; };
+		C54C9AE88A46E6E4519777F8 /* Pods_food_roulette.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50735641A0951D783E3AEBDE /* Pods_food_roulette.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17D99B5D6A0EE1D0574091FE /* Pods-food-roulette.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-food-roulette.release.xcconfig"; path = "Pods/Target Support Files/Pods-food-roulette/Pods-food-roulette.release.xcconfig"; sourceTree = "<group>"; };
 		48F47D3221B6A5E8002C67D3 /* food-roulette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "food-roulette.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F47D3521B6A5E8002C67D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48F47D3721B6A5E8002C67D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		48F47D3F21B6A5E9002C67D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48F47D4221B6A5E9002C67D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48F47D4421B6A5E9002C67D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50735641A0951D783E3AEBDE /* Pods_food_roulette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_food_roulette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEFDDB934FE2A7FD8C9422C /* Pods-food-roulette.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-food-roulette.debug.xcconfig"; path = "Pods/Target Support Files/Pods-food-roulette/Pods-food-roulette.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C54C9AE88A46E6E4519777F8 /* Pods_food_roulette.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				48F47D3421B6A5E8002C67D3 /* food-roulette */,
 				48F47D3321B6A5E8002C67D3 /* Products */,
+				B3D2E80F13A9EC47D444B1C2 /* Pods */,
+				D8263EECC3AD643D1A4D96CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,23 @@
 			path = "food-roulette";
 			sourceTree = "<group>";
 		};
+		B3D2E80F13A9EC47D444B1C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBEFDDB934FE2A7FD8C9422C /* Pods-food-roulette.debug.xcconfig */,
+				17D99B5D6A0EE1D0574091FE /* Pods-food-roulette.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8263EECC3AD643D1A4D96CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50735641A0951D783E3AEBDE /* Pods_food_roulette.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +98,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48F47D4721B6A5E9002C67D3 /* Build configuration list for PBXNativeTarget "food-roulette" */;
 			buildPhases = (
+				25FA1E7994DC85B8FA4DD5EB /* [CP] Check Pods Manifest.lock */,
 				48F47D2E21B6A5E8002C67D3 /* Sources */,
 				48F47D2F21B6A5E8002C67D3 /* Frameworks */,
 				48F47D3021B6A5E8002C67D3 /* Resources */,
@@ -132,6 +157,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25FA1E7994DC85B8FA4DD5EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-food-roulette-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		48F47D2E21B6A5E8002C67D3 /* Sources */ = {
@@ -284,6 +334,7 @@
 		};
 		48F47D4821B6A5E9002C67D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBEFDDB934FE2A7FD8C9422C /* Pods-food-roulette.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +353,7 @@
 		};
 		48F47D4921B6A5E9002C67D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D99B5D6A0EE1D0574091FE /* Pods-food-roulette.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
